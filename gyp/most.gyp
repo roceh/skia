@@ -18,7 +18,8 @@
       'dependencies': [
         # The minimal set of static libraries for basic Skia functionality.
         'skia_lib.gyp:skia_lib',
-
+		
+	'skia_sharp_lib.gyp:*',
         'bench.gyp:*',
         'example.gyp:HelloWorld',
         'SampleApp.gyp:SampleApp',
